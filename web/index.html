@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Golden Voice App</title>
+</head>
+<body>
+  
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+
+  <script>
+    // TODO: Add your Firebase config here
+    var firebaseConfig = {
+      apiKey: "AIzaSyBovVJIcN2Zp_-GgE7iZZ0yILFhrslAShE",
+      authDomain: "friend-room-party.firebaseapp.com",
+      databaseURL: "https://friend-room-party-default-rtdb.firebaseio.com",
+      projectId: "friend-room-party",
+      storageBucket: "friend-room-party.firebasestorage.app",
+      messagingSenderId: "750464835745",
+      appId: "1:750464835745:web:992500b58e39687b6950e0"
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
